@@ -1,0 +1,133 @@
+// New APIs //
+
+** GET API request **
+
+FAQ
+- payload:
+*  String ID
+*  String FAQ title
+*  String FAQ body
+
+** POST API request **
+
+rating screen
+- string LOG ID
+- string rate
+- string body 
+
+out patient Reimbursement claims
+- String employeeName
+- Number totalAmountOfReceipts
+- String patientName
+- Date consultationDate
+- String sex
+- Number age
+- String complaints
+- String laboratoryExamination
+- String prescribedMedicine
+- String finalDiagnosis
+- Array doctorPrescriptionPictures
+- String accountNo
+- String bank
+- String bankName
+
+in patient Reimbursement claims
+- Number telephoneNo
+- Number cellphoneNo
+- String email
+- String claimantName
+- String employer
+- String civilStatus
+- String certNo
+- String civilStatus
+- String presentAddress
+- String occupation
+- String patientName
+- Date birthday
+- String relationship
+- String resideWithIndividual
+- String married
+- String sex
+- String isDependentEmployed
+- String occupation
+- String symptomNoticed
+- String diagnosis
+- String physician
+- String physicianAddress
+- String whenWhereAccidentHappen
+- String isInsured
+- String howItHappen
+- String anotherInsurance
+- String hospitalName
+- String attendingPhysician
+- date date
+- number totalReciepts
+- String claimantName
+- String signature
+- Array doctorStatementPictures
+- Array chargeSlipPictures
+- Array officailRecieptPictures
+- String accountNo
+- String bank
+- String bankName
+
+
+forgot username
+- same as forgot password
+
+forgot email
+- same as forgot password
+
+forgot phone number
+- same as forgot password
+
+
+
+// API Updates //
+
+** GET API request **
+
+card no. signUp
+- payload
+* String username
+* Date birthday
+* String fName
+* String mName
+* String lName
+
+Policy Details
+- Basic Medical
+- Major Medical
+- Out - patient Medical
+- Maternity Benefit
+- Dental Benefits
+- Dental Company Info
+
+LOG
+- payload:
+* bool hasNotification
+
+Claims
+- payload:
+* string remarks
+* bool hasNotification
+
+Reimbursement Claims
+- payload
+* pdf
+
+** POST API request **
+
+card No signUp
+- String cardNo
+- date birthday
+
+** POST API request **
+
+signUp
+- bool recieveNewsletter
+
+User
+- fcmToken // for firebase push notification
+
+

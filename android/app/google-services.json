@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22176239120",
+    "firebase_url": "https://asian-life-app.firebaseio.com",
+    "project_id": "asian-life-app",
+    "storage_bucket": "asian-life-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22176239120:android:92fbbfee904381aa58c495",
+        "android_client_info": {
+          "package_name": "ph.com.av_asian_life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22176239120-h4qkvqqc2m1tf6b0445p3rvt5r1crdt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ph.com.av_asian_life",
+            "certificate_hash": "f22a4e54bc3a870d28b3f63512d8ab66f61b4621"
+          }
+        },
+        {
+          "client_id": "22176239120-cp6cl9gqghb6mtg1oob5nca1lehfc6ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMx1KdZwabUWMJel4y3wAh4OrRYvu1s-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22176239120-cp6cl9gqghb6mtg1oob5nca1lehfc6ib.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22176239120-6mub107a6haolniip08iikn6dt5d9a3n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.etiqa.medsmile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
